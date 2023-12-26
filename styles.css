@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.container h1 {
+  text-align: center;
+}
+.container .data .status-true {
+  color: green;
+}
+.container .data .status-false {
+  color: red;
+}
+.container ul {
+  list-style: none;
+}
+.container ul li {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.container ul li:hover {
+  background-color: yellowgreen;
+}/*# sourceMappingURL=styles.css.map */
